@@ -127,18 +127,23 @@ header{
     margin-bottom: 20px;
 }
 
-.title-box h1{
+p{
+    font-size: 1rem;
+}
+
+h1{
     width: 100%;
-    display: block;
-    height: auto;
     font-size: 75px;
 }
 
-.title-box h2{
+h2{
     width: 100%;
-    display: block;
-    height: auto;
     font-size: 40px;
+}
+
+h3{
+    width: 100%;
+    font-size: 25px;
 }
 
 .text-box{
@@ -205,7 +210,7 @@ header{
 .plans{
     width: 100%;
     height: auto;
-    padding-top: 50px;;
+    padding-top: 50px;
 }
 
 .plans .col{
@@ -215,7 +220,7 @@ header{
     height: 600px;
 }
 
-.col:nth-child(2){
+.plans .col:nth-child(2){
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -228,7 +233,32 @@ header{
     height: 200px;
 }
 
-.plans. col{
+.partner .col{
+    height: 500px;
     float: left;
-    height: 100px;
+    width: calc(100% / 2);
 }
+
+.partner .col img{
+    width: 100%;
+    display: block;
+}
+
+.partner .col:nth-child(2){
+    padding: 30px 0 100px 100px;
+    width: calc(100% / 2 - 100px);
+}
+
+.partner .col h3{
+    margin-bottom: 30px;
+}
+
+.partner .col p{
+    margin-bottom: 30px;
+} 
+
+.partner .col .button{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+} 
