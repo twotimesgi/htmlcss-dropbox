@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-size: 0;
+    font-family: 'Roboto', sans-serif;
+    min-width: 1200px;
+}
+
+header{
+    height: 70px;
+    background-color: white;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    line-height: 70px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button{
+    background-color: rgb(24, 117, 255);
+    color:white;
+    padding: 0.5em 1em 0.5em 1em;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.logo__container,
+.nav__container{
+    float: left;
+}
+
+.button__container .button{
+    display: inline;
+}
+
+.button__container{
+    float: right;
+    text-align: right;
+    width: calc(10% - 20px);
+    height: 70px;
+    padding-right: 20px;
+}
+
+.logo__container{
+    width: calc(10% - 20px);
+    height: 70px;
+    padding-left: 20px;
+}
+
+.logo{
+    height: 20px;
+    vertical-align: middle;
+}
+
+.nav__container{
+    width: 80%;
+    height: 70px;
+}
+
+.nav__container ul{
+    list-style: none;
+    display: inline-block;
+    width: auto;
+}
+
+.nav__container li{
+    font-size: 1rem;
+    display: inline-block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: center;
+}
+
+.nav__container li a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav__container .menu__left{
+    float: left;
+}
+
+.nav__container ul.menu__right{
+    float: right;
+}
