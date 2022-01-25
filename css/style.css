@@ -146,6 +146,10 @@ h3{
     font-size: 25px;
 }
 
+.col{
+    float: left;
+}
+
 .text-box{
     float: left;
     width: 30%;
@@ -216,7 +220,6 @@ h3{
 .plans .col{
     width: calc((100% / 3) - (100px / 3));
     background-color: red;
-    float: left;
     height: 600px;
 }
 
@@ -225,16 +228,14 @@ h3{
     margin-right: 50px;
 }
 
-.plans .col-large{
+.plans .large{
     width: 100%;
-    float: left;
     margin-top: 50px;
     background-color: red;
     height: 200px;
 }
 
 .partner .col{
-    height: 500px;
     float: left;
     width: calc(100% / 2);
 }
@@ -245,8 +246,8 @@ h3{
 }
 
 .partner .col:nth-child(2){
-    padding: 30px 0 100px 100px;
-    width: calc(100% / 2 - 100px);
+    padding: 30px 0 0 50px;
+    width: calc(100% / 2 - 80px);
 }
 
 .partner .col h3{
@@ -262,3 +263,17 @@ h3{
     background-color: white;
     border: 1px solid black;
 } 
+
+.features .col{
+    width: calc(100% / 3 - (100px / 3));
+    margin-bottom: 80px;
+}
+
+.features .col:nth-child(3n+2){
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.features .col img{
+    width: 100%;
+}
