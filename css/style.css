@@ -59,7 +59,7 @@ header{
     padding-left: 20px;
 }
 
-.logo{
+.logo__container .logo{
     height: 20px;
     vertical-align: middle;
 }
@@ -277,3 +277,66 @@ h3{
 .features .col img{
     width: 100%;
 }
+
+.mosaic .col{
+    width: 400px;
+    height: 400px;
+}
+
+.mosaic .large{
+    width: calc(100% - 800px);
+    height: 400px;
+    background-color: rgb(245,245,245);
+}
+
+.mosaic .card{
+    height: 200px;
+    width: 200px;
+    float: left;
+    position: relative;
+}
+
+/* SFONDI CARD MOSAICO */
+
+.des{
+    background-color: rgb(171, 209, 160);
+}
+
+.asu{
+    background-color: rgb(89, 19, 43);
+}
+
+
+.uf{
+    background-color: rgb(60, 146, 201);
+}
+.topps{
+    background-color: rgb(236, 59, 47);
+}
+
+.wbc{
+    background-color: rgb(197,41,43);
+}
+
+.hc{
+    background-color: rgb(171,192,200);
+}
+
+.lp{
+    background-color: rgb(16, 39, 124);
+}
+
+.cc{
+    background-color: rgb(250,216,86);
+}
+
+.mosaic .card svg{
+    width: 60%;
+    color: white;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
