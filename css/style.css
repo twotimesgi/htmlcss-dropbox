@@ -542,23 +542,53 @@ section.cta{
     margin-bottom: 50px;
 } 
 
-.faq{
-    height: auto;
-}
-
-.faq .q{
-    height: 100px;
-    width: 100%;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+.q{
+    padding: 40px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    position: relative;
+    color: black;
     font-size: 1rem;
+   
+ }
+
+ .q span{
     font-weight: bold;
-    line-height: 100px;
-}
-
-.faq .q:last-child{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);;
-}
-
+ }
+ 
+ .q:hover .a{
+    display: block;
+ }
+ 
+ .arrow{
+ float: right;
+ }
+ 
+ i.fa-chevron-down{
+    display: block;
+ }
+ 
+ i.fa-chevron-up{
+     display: none;
+ }
+ 
+ .a{
+    margin-top: 30px;
+    display: none;
+    opacity: 0.5; 
+ }
+ 
+ .q:hover .arrow .fa-chevron-down{
+    display: none;
+ }
+ 
+ .q:hover .arrow .fa-chevron-up{
+    display: block;
+ }
+ 
+ .q:last-child{
+       border-bottom: 1px solid rgba(0,0,0,0.1);
+       margin-bottom: 50px;
+ }
 
 
 
