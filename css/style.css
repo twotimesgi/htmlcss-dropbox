@@ -3,11 +3,12 @@
     padding: 0;
     box-sizing: 0;
 }
-
+html{
+    min-width: 1600px;
+}
 body{
     font-size: 0;
     font-family: 'Roboto', sans-serif;
-    min-width: 1300px;
 }
 
 header{
@@ -99,14 +100,14 @@ header{
 
 .section{
     width: 100%;    
-    padding-top: 100px;
-    padding-bottom: 100px;
     height: auto;
 }
 
 .inner{
     width: 60%;
     margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .hero .inner{
@@ -340,3 +341,20 @@ h3{
     transform: translate(-50%,-50%);
 }
 
+section.cta{
+    height: auto;
+    background-color: rgb(185,208,229);
+}
+
+.cta .col{
+    width: 50%;
+}
+
+.cta .col:nth-child(2){
+    text-align: right;
+}
+
+.cta .button{
+    background-color: white;
+    color: black;
+}
