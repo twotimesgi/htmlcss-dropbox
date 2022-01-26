@@ -557,6 +557,10 @@ footer li a{
     font-size: 1rem;
 }
 
+footer li a:hover{
+    text-decoration: underline;
+}
+
 .footer__bottom{
     height: 50px;
     width: 100%;
