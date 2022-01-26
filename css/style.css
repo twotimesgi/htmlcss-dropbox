@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 
+html{ 
+    min-width: 1300px;
+}
+
 body{
     font-size: 0;
     font-family: 'Roboto', sans-serif;
-    min-width: 1300px;
 }
 
 .icon{
@@ -32,6 +35,13 @@ h2{
 h3{
     width: 100%;
     font-size: 25px;
+}
+
+hr{
+    width: 60px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    opacity: 0.4;
 }
 
 .col{
@@ -74,6 +84,7 @@ header{
     position: fixed;
     width: 100%;
     z-index: 100;
+    min-width: 1300px;
 }
 
 
@@ -307,13 +318,6 @@ header{
     margin-top: 50px;
 }
 
-.plans hr{
-    width: 60px;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    opacity: 0.4;
-}
-
 .plan-content .left{
     width: 75%;   
 }
@@ -382,7 +386,16 @@ header{
 .mosaic .large{
     width: 40vw;
     height: 30vw;
+    padding: 50px;
     background-color: rgb(245,245,245);
+}
+
+.mosaic .large p + p{
+    margin-top: 50px;
+}
+
+.mosaic .large img{
+    width: 30%;
 }
 
 .mosaic .card{
