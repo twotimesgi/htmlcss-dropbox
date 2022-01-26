@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-html{ 
-    min-width: 1300px;
-}
-
 body{
     font-size: 0;
     font-family: 'Roboto', sans-serif;
@@ -62,8 +58,8 @@ hr{
 .inner{
     width: 60%;
     margin: 0 auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .button{
@@ -84,7 +80,6 @@ header{
     position: fixed;
     width: 100%;
     z-index: 100;
-    min-width: 1300px;
 }
 
 
@@ -150,12 +145,15 @@ header{
 
 .hero .inner{
     width: 70%;
-    padding: 200px 0 0 0;
+    padding: 100px 0 0 0; 
 }
 
 .hero{
     background-color: rgb(185, 207, 229);
     width: 100%;
+    height: auto;
+    padding-bottom: 90px; 
+    margin-bottom: 200px; 
 }
 .hero p{
     font-size: 1.2rem;
@@ -180,15 +178,19 @@ header{
     margin-bottom: 10px;
 }
 
-.img-box{
-    width: calc(70% - 100px);
-    padding-left: 50px;
-    padding-right: 50px;
+.img-box{ 
+    width: 70%;
     float: left;
+    position: relative;
 }
 
-.img-box img{
+.img-box img{ 
     width: 100%;
+    max-width: 880px;
+    position: absolute; 
+    top: 0;
+    left: 0;
+
 }
 
 .text-box .fa-arrow-down{
@@ -213,6 +215,7 @@ header{
     position: relative;
     vertical-align: sub;
     margin-right: 5px;
+    cursor: pointer; 
 }
 
 .full{
@@ -388,6 +391,7 @@ header{
     height: 30vw;
     padding: 50px;
     background-color: rgb(245,245,245);
+    overflow: scroll;
 }
 
 .mosaic .large p + p{
@@ -409,6 +413,7 @@ header{
 
 .des{
     background-color: rgb(171, 209, 160);
+    border: 10px solid rgb(212, 232, 207);
 }
 
 .asu{
@@ -451,6 +456,8 @@ header{
 
 section.cta{
     height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: rgb(185,208,229);
 }
 
