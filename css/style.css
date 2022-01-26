@@ -1,12 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 body{
     font-size: 0;
     font-family: 'Roboto', sans-serif;
+    min-width: 1300px;
+}
+
+.icon{
+    margin-right: 5px;
 }
 
 p{
@@ -133,13 +138,12 @@ header{
 
 .hero .inner{
     width: 70%;
-    padding-top: 200px;
+    padding: 200px 0 0 0;
 }
 
 .hero{
     background-color: rgb(185, 207, 229);
     width: 100%;
-    height: 58vh;
 }
 .hero p{
     font-size: 1.2rem;
@@ -182,6 +186,7 @@ header{
 
 .radio{
     font-size: 1rem;
+    margin-top: 50px;
 }
 
 .ext-circle{
@@ -192,7 +197,7 @@ header{
     border-radius: 100px;
     display: inline-block;
     line-height: 1rem;
-    border: 1px solid gray;
+    border: 1px solid rgb(223, 223, 223);
     position: relative;
     vertical-align: sub;
     margin-right: 5px;
@@ -210,13 +215,85 @@ header{
 .plans{
     width: 100%;
     height: auto;
-    padding-top: 50px;
+    padding-top: 40px;
+}
+
+.plan-user{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    font-size: 1rem;
+}
+
+.plan-content{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.plan-content h2{
+    font-size: 1.8rem;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.plan-content h3{
+    font-size: 1.1rem;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.plan-content .button{
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.plan-price{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.plan-cicle{
+    font-size: 0.9rem;
+    opacity: .5;
+    margin-bottom: 40px;
+}
+
+.plan-feature{
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.plan-feature-icon{
+    float: left; 
+    width: 10px;   
+}
+
+.plan-feature-text{
+    float: left;
+    width: calc(100% - 10px);
+    padding-left: 10px;
+}
+
+.blue{
+    color: rgb(24, 117, 255);
+    font-size: 1rem;
+}
+.plan-content .buy-now{
+    margin-top: 30px;
+    font-size: 0.9rem;
 }
 
 .plans .col{
     width: calc((100% / 3) - (100px / 3));
-    background-color: red;
-    height: 600px;
+    border: 1px solid rgb(223, 223, 223);
 }
 
 .plans .col:nth-child(2){
@@ -227,8 +304,14 @@ header{
 .plans .large{
     width: 100%;
     margin-top: 50px;
-    background-color: red;
     height: 200px;
+}
+
+.plans hr{
+    width: 60px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    opacity: 0.4;
 }
 
 .partner .col{
