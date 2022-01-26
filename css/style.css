@@ -16,6 +16,7 @@ body{
 
 p{
     font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 h1{
@@ -357,20 +358,24 @@ header{
     width: 100%;
 }
 
+.features h3{
+    margin-bottom: 20px;
+}
+
 .mosaic .col{
-    width: 400px;
-    height: 400px;
+    height: 30vw;
+    width: 30vw;
 }
 
 .mosaic .large{
-    width: calc(100% - 800px);
-    height: 400px;
+    width: 40vw;
+    height: 30vw;
     background-color: rgb(245,245,245);
 }
 
 .mosaic .card{
-    height: 200px;
-    width: 200px;
+    height: 15vw;
+    width: 15vw;
     float: left;
     position: relative;
 }
