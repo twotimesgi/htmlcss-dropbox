@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-size: 0;
     font-family: 'Roboto', sans-serif;
@@ -71,6 +75,9 @@ hr{
     display: inline-block;
 }
 
+.h:hover{
+    background-color: rgb(100, 162, 255);
+}
 
 header{
     height: 70px;
@@ -197,6 +204,10 @@ header{
     margin-top: 20px;
     font-size: 2rem;
 }
+
+.anc{
+    color: black;
+} 
 
 .radio{
     font-size: 1rem;
@@ -474,6 +485,36 @@ section.cta{
     color: black;
 }
 
+.faq h2{
+    font-size: 2rem;
+    margin-bottom: 50px;
+} 
+
+.faq{
+    height: auto;
+}
+
+.faq .q{
+    height: 100px;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+.faq .q:last-child{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);;
+}
+
+
+
+
+
+
+
+
+
 footer{
     background-color: black;
     height: auto;
@@ -523,3 +564,4 @@ footer li a{
     border-top: 1px solid white;
     padding-top: 40px;
 }
+
