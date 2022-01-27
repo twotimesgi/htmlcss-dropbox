@@ -87,6 +87,7 @@ header{
     position: fixed;
     width: 100%;
     z-index: 100;
+    min-width: 1200px;
 }
 
 
@@ -111,11 +112,13 @@ header{
     width: calc(10% - 20px);
     height: 70px;
     padding-left: 20px;
+    line-height: 70px;
 }
 
 .logo__container .logo{
-    height: 20px;
+    width: 95px;
     vertical-align: middle;
+    display: inline-block;
 }
 
 .nav__container{
