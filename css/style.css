@@ -543,10 +543,8 @@ section.cta{
 .q{
     padding: 40px;
     border-top: 1px solid rgba(0,0,0,0.1);
-    position: relative;
     color: black;
     font-size: 1rem;
-   
  }
 
  .q span{
@@ -579,11 +577,11 @@ section.cta{
     display: none;
  }
  
- .q:hover .arrow .fa-chevron-up{
+.q:hover .arrow .fa-chevron-up{
     display: block;
- }
+}
  
- .q:last-child{
+.q:last-child{
        border-bottom: 1px solid rgba(0,0,0,0.1);
        margin-bottom: 50px;
 }
@@ -636,7 +634,7 @@ footer li a:hover{
     color: rgba(255, 255, 255, 0.5);
 }
 
-.lang-selector{
+.footer__lang-selector{
     width: 100px;
     border-top: 1px solid white;
     padding-top: 40px;
